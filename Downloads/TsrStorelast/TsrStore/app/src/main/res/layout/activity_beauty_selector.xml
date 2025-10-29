@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeautySelector"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<!--            <HorizontalScrollView-->
+<!--                android:id="@+id/he1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag"-->
+<!--                        android:layout_width="350dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+
+
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag1"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag2"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag3"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag4"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+<!--                </LinearLayout>-->
+<!--            </HorizontalScrollView>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/he1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/face"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/facewash"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Skin Care"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/hair"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/hairoil"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Haircare"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/fragrance"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/perfume"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fragrance"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/lip"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/lipstick1"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Beauty"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/daily"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/bodywash"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Daily Essentials"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

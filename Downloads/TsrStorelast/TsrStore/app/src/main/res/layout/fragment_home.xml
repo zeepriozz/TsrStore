@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/white1"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+<!--    <HorizontalScrollView-->
+<!--        android:id="@+id/hs1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/himg"-->
+<!--                android:layout_width="350dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+
+
+<!--               />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/himg1"-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--            />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/himg2"-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--               />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/himg3"-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--               />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/himg4"-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/himg5"-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--                />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/himg6"-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--                />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/himg7"-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--                />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/himg8"-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+<!--    </HorizontalScrollView>-->
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+       
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/hs1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/fashion"
+                app:cardBackgroundColor="@color/white"
+                >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/fashion"
+
+                >
+
+            </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="fashion"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                   android:layout_marginTop="35dp"
+                    >
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/electronic"
+                app:cardBackgroundColor="@color/white"
+
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/electronics"
+
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Electronics"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="35dp"
+                    >
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/hs1"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/home1"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/home"
+                    android:id="@+id/Home"
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="35dp"
+                    >
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/hs1"
+                android:layout_marginLeft="20dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:id="@+id/beauty"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/beauty"
+                    android:layout_gravity="center"
+
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Beauty"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="35dp"
+                    >
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/hs1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/toys"
+                app:cardBackgroundColor="@color/white"
+
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/toys"
+                    android:layout_gravity="center"
+
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Toys"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="35dp"
+                    >
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/hs1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/fitness"
+                app:cardBackgroundColor="@color/white"
+
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fitness"
+                    android:layout_gravity="center"
+
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sports and Fitness"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="35dp"
+                    >
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/hs1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/auto1"
+                app:cardBackgroundColor="@color/white"
+
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/auto"
+                    android:layout_gravity="center"
+
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Auto accessories"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="35dp"
+                    >
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/hs1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/white"
+                android:id="@+id/furniture"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/home"
+                    android:layout_gravity="center"
+
+                    >
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Furniture"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="35dp"
+                    >
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fashion"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/white"
+            android:id="@+id/homemen">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/men"
+
+                >
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mens"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="205dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOP MENS WEAR"
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="225dp"
+                android:textStyle="italic|bold"
+                android:textColor="@color/main"
+                >
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="175dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginTop="40dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/homewomen">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:src="@drawable/woemen"
+
+                    >
+
+                </ImageView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Women's"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="205dp"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TOP WOMENS WEAR"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="225dp"
+                    android:textStyle="italic|bold"
+                    android:textColor="@color/main"
+                    >
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+
+                    android:id="@+id/homekid"
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/kids"
+
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kids"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP KID'S WEAR"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homeotherfashion"
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/otherfashion"
+
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Other Fashion Items"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP FASHION"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electronics"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homemobile"
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/mobile"
+
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mobiles"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP MOBILE'S"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homelap"
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/lap"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Laptop's"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP LAPTOP'S"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homeelec"
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fridge"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Electronics"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP ELECTRONICS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homeair"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/air"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Other Electronics"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homekitchen"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/kitchen"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="kitchen"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP KITCHEN ESSENTIAL'S"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homelamp"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/lamp"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chandelier and Lamp"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP CHANDELIER AND LAMP"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homebed"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/bed"
+
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bedsheet and Pillow Cover"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP BEDSHEET'S AND PILLOW COVERS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homecur"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/homesecurity"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Home Improvements"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP ITEMS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beauty"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homeldbuty"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/hairoil"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hair Care"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP HAIRE CARE PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homemenbuty"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/mensbuty"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SKIN CARE"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP SKIN CARE PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homebabybuty"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/perfume"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fragrance"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP FRAGRANCE PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homeotherbuty"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/otherbuty"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Other Beauty Products"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP OTHER BEAUTY PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toys And School"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/hometoy"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/toy"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Toys"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP TOY'S"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homeschool"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/books"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="School Product's"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP SCHOOL PRODUCT'S"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sports and Fitness"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homesports"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fitness"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sports"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP SPORTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homegym"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/gym"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fitness"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP FITNESS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homenutri"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/protine"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nutrition and helthcare"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP NUTRITION"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auto"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homebike"
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/helmet"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bike Accessories"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homegroom"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/clean"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cleaning and grooming"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homecar"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/car"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Car Accessories"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homeengin"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/tyer"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tyres and Accessories"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Furniture"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homebedroom"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/bedroom"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bedroom Furniture"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homeliving"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/living"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Livingroom Furniture"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/homeoffice"
+
+                    app:cardCornerRadius="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/study"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Study and Office"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    app:cardBackgroundColor="@color/white"
+                    android:id="@+id/homedinning"
+
+                    app:cardCornerRadius="20dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/diningroom"
+                        >
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dinning and Kitchen"
+                        android:textStyle="italic"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="205dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOP PRODUCTS"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="225dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/main"
+                        >
+
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+          
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

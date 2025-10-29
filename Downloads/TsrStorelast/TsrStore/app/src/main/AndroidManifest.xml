@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TsrStore"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".kidsfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".searchactivity"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".searchproduct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CartFragment"
+            android:exported="false" />
+        <activity
+            android:name=".offerfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".offeractivity"
+            android:exported="false" />
+        <activity
+            android:name=".orderactivity"
+            android:exported="false" />
+        <activity
+            android:name=".orderfullactiivity"
+            android:exported="false" />
+        <activity
+            android:name=".wishlistactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Homeapplincesfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".omeapplincesfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Camerafullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Personalcarefullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Smartwatchfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Storagefullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Computeraccessoriesfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Computerperipheralsfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Casefullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Headphonefullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mobileaccessoriesfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Laptopfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mobilefullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".paymentmethod"
+            android:exported="false" />
+        <activity
+            android:name=".Homeproductactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Productlistactivity"
+            android:exported="false" />
+        <activity
+            android:name=".FurnitureSelector"
+            android:exported="false" />
+        <activity
+            android:name=".AutoSelector"
+            android:exported="false" />
+        <activity
+            android:name=".SportsSelector"
+            android:exported="false" />
+        <activity
+            android:name=".BabySelector"
+            android:exported="false" />
+        <activity
+            android:name=".FashionSelector"
+            android:exported="false" />
+        <activity
+            android:name=".Productactivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeautySelector"
+            android:exported="false" />
+        <activity
+            android:name=".HomeSelector"
+            android:exported="false" />
+        <activity
+            android:name=".ElectronicSelector"
+            android:exported="false" />
+        <activity
+            android:name=".Productfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Userlogin2"
+            android:exported="false" />
+        <activity
+            android:name=".Editproduct"
+            android:exported="false" />
+        <activity
+            android:name=".listfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".listproductactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Forgotpass2"
+            android:exported="false" />
+        <activity
+            android:name=".Forgotpass1"
+            android:exported="false" />
+        <activity
+            android:name=".Additem"
+            android:exported="false" />
+        <activity
+            android:name=".Updatepic"
+            android:exported="false" />
+        <activity
+            android:name=".Sellerprof"
+            android:exported="false" />
+        <activity
+            android:name=".Sellerprofile"
+            android:exported="false" />
+        <activity
+            android:name=".Sellerhome"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".Sellerregistration"
+            android:exported="false" />
+        <activity
+            android:name=".Sellerlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Userlogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

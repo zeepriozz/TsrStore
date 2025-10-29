@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Userlogin2"
+    android:background="@color/white1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/loginback"
+        android:background="@color/main"
+        >
+
+    </ImageView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="25dp"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white1"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back,"
+            android:textSize="25dp"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:textStyle="italic|bold"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="290dp"
+            app:cardBackgroundColor="@color/white"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hey,"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold|italic"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Let's Sign in!"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic"
+                    >
+
+                </TextView>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <EditText
+                        android:id="@+id/logotp"
+                        android:background="@drawable/custominput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Security code"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
+                        android:layout_marginHorizontal="20dp"
+                        android:drawableTint="@color/white"
+                        >
+
+                    </EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/loginb"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/gradient"
+                    >
+
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New user?Register"
+            android:fontFamily="monospace"
+            android:textStyle="italic|bold"
+            android:id="@+id/lregi"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

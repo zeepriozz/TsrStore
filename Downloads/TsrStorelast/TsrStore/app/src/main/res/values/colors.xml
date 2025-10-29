@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="violet">#510367</color>
+    <color name="main">#ff9a9e</color>
+    <color name="main1">#EF9DA3</color>
+    <color name="gradient">#CA4585</color>
+    <color name="yellow">#D6C106</color>
+    <color name="gray">#C0C1BA</color>
+    <color name="gray1">#767774</color>
+    <color name="trasparent">#80FFFFFF</color>
+    <color name="white1">#E1DEDE</color>
+    <color name="seller">#34538b</color>
+    <color name="seller1">#7BA8F8</color>
+    <color name="activeColor">#B08FFF</color>
+    <color name="inactiveColor">#707070</color>
+
+</resources>

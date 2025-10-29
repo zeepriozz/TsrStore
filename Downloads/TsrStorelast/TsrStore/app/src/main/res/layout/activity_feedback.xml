@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="140dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="160dp"
+        android:id="@+id/pf"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="140dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="190dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:id="@+id/wno1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="190dp"/>
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="4"
+        android:stepSize="0.5"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:progressTint="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/app_rating_bar"
+        android:numStars="5"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/feed1"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Feedback"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/btn_rate_app"
+        android:layout_marginTop="500dp"
+        android:text="ADD FEEDBACK"
+        android:layout_marginRight="30dp"
+        />
+</RelativeLayout>

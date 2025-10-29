@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.CartFragment"
+    android:background="@color/white1">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bargcart"
+            android:outlineSpotShadowColor="@color/black"
+            android:outlineProvider="background"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cyclegcart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+
+    </LinearLayout>
+
+
+<androidx.cardview.widget.CardView
+android:id="@+id/cartb"
+android:layout_width="match_parent"
+android:layout_height="60dp"
+app:cardBackgroundColor="@color/white"
+android:layout_alignParentBottom="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/totalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount: "
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/place"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:text="Place order"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cartbutton"
+        android:textColor="@color/black"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+    </RelativeLayout>

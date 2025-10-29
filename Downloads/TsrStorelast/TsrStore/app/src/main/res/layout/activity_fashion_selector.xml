@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FashionSelector">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<!--            <HorizontalScrollView-->
+<!--                android:id="@+id/hs1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/himag"-->
+<!--                        android:layout_width="350dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+
+
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/himag1"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/himag2"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+<!--                    <ImageView-->
+<!--                        android:id="@+id/himag3"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/himag4"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+<!--                </LinearLayout>-->
+<!--            </HorizontalScrollView>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/shirt"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mshirt"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="T-shirts,\nShirts"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/jeans"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mjeans"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jeans,\nTrousers"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/casual"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/cshoe"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mens\nCasual shoe and sandels"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/sports"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/sshoe"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mens,\nSports shoe"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/dress"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/dress"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dresses"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/saree"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/saree"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sarees"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/tops"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/tops"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Top Wear"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/lehenka"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/lehenka"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lehengas and Gowns"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/boyshirt"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/boytshirt"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boys T-shirt\nand Shirt"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/boysshort"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/boyjeans"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boys Shorts \nand Jeans"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/Girlsethinic"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/girlsethinic"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Girls Ehinic \nand T-shirts"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/girlsdress"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/girlsdress"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Girls Dress \nand Frocks"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/meninner"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mesinner"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mens inner \nwear"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/womeninner"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="86dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/woemeninner"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Womens \ninner wear"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/boysinner"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/boysinner"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Boys \ninner wear"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/jewellery"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/girlsinner"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Girls \inner wears"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/menacc"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/menwatch"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mens Watches\n,beslts and sunglasses"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/womenacces"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/womenwatch"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Womens watches \nbelts and sunglasses "
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/bags"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/bags"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bags and suitcase"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/girlsinner"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/earring"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="jewellery earrings and bangles"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+

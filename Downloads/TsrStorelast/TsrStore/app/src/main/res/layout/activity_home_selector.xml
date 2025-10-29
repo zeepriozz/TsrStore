@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeSelector">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<!--            <HorizontalScrollView-->
+<!--                android:id="@+id/he1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag"-->
+<!--                        android:layout_width="350dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+
+
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag1"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag2"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag3"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/eimag4"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:layout_marginHorizontal="30dp"-->
+<!--                        />-->
+<!--                </LinearLayout>-->
+<!--            </HorizontalScrollView>-->
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/he1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/kitchen"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/deppa"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kitchen Items"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/pillow"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/pillow"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Home \nFurnishing"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/pipe"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/pipe"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Home \nImprovement tools"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/hs1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="100dp"
+                        app:cardBackgroundColor="@color/gray"
+                        android:id="@+id/decor"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/decor"
+
+                            >
+
+                        </ImageView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Decor and Lighting"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold|italic"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

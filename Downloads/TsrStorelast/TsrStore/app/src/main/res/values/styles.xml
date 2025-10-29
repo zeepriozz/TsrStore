@@ -1,0 +1,13 @@
+<resources>
+    <!-- Active text style for selected item in BottomNavigationView -->
+    <style name="ActiveTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/activeColor</item>
+    </style>
+
+    <!-- Inactive text style for unselected items in BottomNavigationView -->
+    <style name="InactiveTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/inactiveColor</item>
+    </style>
+</resources>

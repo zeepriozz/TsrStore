@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/receivercardview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="4dp"
+    android:layout_margin="16dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/main">
+
+        <ImageView
+            android:id="@+id/rimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+          />
+
+        <TextView
+            android:id="@+id/ritem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Itemname "
+            android:layout_below="@id/rimage"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/rprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price "
+            android:layout_below="@id/ritem"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
